@@ -3,15 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EludeWeb.UserListPage">
+      <class name="EludeWeb.HomePage">
         <methods>
-          <include name="AddAdmin"/>
-          <include name="Close"/>
-          <include name="DeleteEmp"/>
-          <include name="AddEmployee"/>
+          <include name="FootContent"/>
+          <include name="ContentHeaderList"/>
+          <include name="PresentDetails"/>
+          <include name="close"/>
+          <include name="Present"/>
+          <include name="StatusHContent"/>
+          <include name="CHStepOne"/>
+          <include name="StatusContent"/>
+          <include name="ContentHeaderIcon"/>
           <include name="OpenBrowser"/>
+          <include name="CHStepTwo"/>
+          <include name="Leave"/>
         </methods>
-      </class> <!-- EludeWeb.UserListPage -->
+      </class> <!-- EludeWeb.HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
